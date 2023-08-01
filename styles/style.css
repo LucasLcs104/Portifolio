@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../assets/backgrounds.png);
+    background-size: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.cabecalho {
+    padding: 2% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'montseerat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.apresentacao__apresentacao {
+    padding: 10% 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__apresentacao h1 {
+    font-size: 60px;
+}
+
+.apresentacao__apresentacao p {
+    font-size: 25px;
+}
+
+.apresentacao {
+    padding: 8% 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 35px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque {
+    color: #269bbe;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__subtitulo {
+    font-family: 'krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.foto__lucas {
+    width: 40%;
+    border-radius: 3px;
+    border: 2px solid #22D4FD
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 36px;
+    text-align: center;
+    font-family: 'monteserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
